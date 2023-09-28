@@ -9,8 +9,8 @@
 
 <channel>
 	<title>vncentf.portfolio</title>
-	<atom:link href="https://vncntpnts.github.io/Portfolio/feed/" rel="self" type="application/rss+xml" />
-	<link>https://vncntpnts.github.io/Portfolio/</link>
+	<atom:link href="https://vncntpnts.github.io/portfolio/feed/" rel="self" type="application/rss+xml" />
+	<link>https://vncntpnts.github.io/portfolio/</link>
 	<description></description>
 	<lastBuildDate>Sat, 23 Sep 2023 11:45:33 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,20 +21,20 @@
 	<generator>https://wordpress.org/?v=6.3.1</generator>
 	<item>
 		<title>Hello world!</title>
-		<link>https://vncntpnts.github.io/Portfolio/hello-world/</link>
-					<comments>https://vncntpnts.github.io/Portfolio/hello-world/#comments</comments>
+		<link>https://vncntpnts.github.io/portfolio/hello-world/</link>
+					<comments>https://vncntpnts.github.io/portfolio/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 23 Sep 2023 11:45:33 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">https://vncntpnts.github.io/Portfolio/?p=1</guid>
+		<guid isPermaLink="false">https://vncntpnts.github.io/portfolio/?p=1</guid>
 
 					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://vncntpnts.github.io/Portfolio/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>https://vncntpnts.github.io/portfolio/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
