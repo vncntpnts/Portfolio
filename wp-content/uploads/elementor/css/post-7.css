@@ -108,7 +108,7 @@
   transition-property:width;
 }
 
-.ct-imgbx:not(:last-child)::after {
+.ct-imgbx::after {
   content: "";
   position: absolute;
   height: 0px;
