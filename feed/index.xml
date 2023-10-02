@@ -19,6 +19,14 @@
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.3.1</generator>
+
+<image>
+	<url>https://vncent-f.github.io/portfolio/wp-content/uploads/2023/09/cropped-353814597_260744166563106_1901602347329960438_n-removebg-preview-transformed-e1695827291171-32x32.png</url>
+	<title>vncentf.portfolio</title>
+	<link>https://vncent-f.github.io/portfolio/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Hello world!</title>
 		<link>https://vncent-f.github.io/portfolio/hello-world/</link>
