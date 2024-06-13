@@ -53,9 +53,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 <link rel="alternate" type="application/json+oembed" href="https://vncent-f.github.io/portfolio/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps%3A%2F%2Fvncent-f.github.io%2Fportfolio%2Fhello-world%2F">
 <link rel="alternate" type="text/xml+oembed" href="https://vncent-f.github.io/portfolio/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps%3A%2F%2Fvncent-f.github.io%2Fportfolio%2Fhello-world%2F#038;format=xml">
 <meta name="generator" content="Elementor 3.17.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
-
-<script>particlesJS("particles-js", {"particles":{"number":{"value":96,"density":{"enable":true,"value_area":3607.6771369474263}},"color":{"value":"#5769ff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":112.2388442605866,"color":"#ffffff","opacity":0.1,"width":1},"move":{"enable":true,"speed":1.603412060865523,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"grab"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":179.82017982017982,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":39.96003996003996,"duration":2,"opacity":0.5194805194805194,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;</script>
 <link rel="icon" href="https://vncent-f.github.io/portfolio/wp-content/uploads/2023/09/cropped-353814597_260744166563106_1901602347329960438_n-removebg-preview-transformed-e1695827291171-32x32.png" sizes="32x32">
 <link rel="icon" href="https://vncent-f.github.io/portfolio/wp-content/uploads/2023/09/cropped-353814597_260744166563106_1901602347329960438_n-removebg-preview-transformed-e1695827291171-192x192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="https://vncent-f.github.io/portfolio/wp-content/uploads/2023/09/cropped-353814597_260744166563106_1901602347329960438_n-removebg-preview-transformed-e1695827291171-180x180.png">
@@ -159,6 +156,14 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.</p>
 
 <script src="https://vncent-f.github.io/portfolio/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=1.0.0" id="hello-theme-frontend-js"></script>
 <script src="https://vncent-f.github.io/portfolio/wp-includes/js/comment-reply.min.js?ver=6.4.3" id="comment-reply-js" async data-wp-strategy="async"></script>
+<script type="text/javascript">// Removes   from Elementor Animated Headline making it responsive.
+	jQuery(document).ready(function(){
+		jQuery('.elementor-headline-dynamic-text').each(function(){
+			var text = jQuery(this).html();
+			text = text.replace(/ /g, ' ');
+			jQuery(this).html(text);
+		});
+	});</script>
 
 </body>
 </html>
