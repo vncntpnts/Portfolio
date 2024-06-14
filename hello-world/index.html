@@ -53,6 +53,14 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 <link rel="alternate" type="application/json+oembed" href="https://vncent-f.github.io/portfolio/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps%3A%2F%2Fvncent-f.github.io%2Fportfolio%2Fhello-world%2F">
 <link rel="alternate" type="text/xml+oembed" href="https://vncent-f.github.io/portfolio/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps%3A%2F%2Fvncent-f.github.io%2Fportfolio%2Fhello-world%2F#038;format=xml">
 <meta name="generator" content="Elementor 3.17.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<script type="text/javascript">// Removes   from Elementor Animated Headline making it responsive.
+	jQuery(document).ready(function(){
+		jQuery('.elementor-headline-dynamic-text').each(function(){
+			var text = jQuery(this).html();
+			text = text.replace(/ /g, ' ');
+			jQuery(this).html(text);
+		});
+	});</script>
 <link rel="icon" href="https://vncent-f.github.io/portfolio/wp-content/uploads/2023/09/cropped-353814597_260744166563106_1901602347329960438_n-removebg-preview-transformed-e1695827291171-32x32.png" sizes="32x32">
 <link rel="icon" href="https://vncent-f.github.io/portfolio/wp-content/uploads/2023/09/cropped-353814597_260744166563106_1901602347329960438_n-removebg-preview-transformed-e1695827291171-192x192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="https://vncent-f.github.io/portfolio/wp-content/uploads/2023/09/cropped-353814597_260744166563106_1901602347329960438_n-removebg-preview-transformed-e1695827291171-180x180.png">
@@ -156,14 +164,6 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.</p>
 
 <script src="https://vncent-f.github.io/portfolio/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=1.0.0" id="hello-theme-frontend-js"></script>
 <script src="https://vncent-f.github.io/portfolio/wp-includes/js/comment-reply.min.js?ver=6.4.3" id="comment-reply-js" async data-wp-strategy="async"></script>
-<script type="text/javascript">// Removes   from Elementor Animated Headline making it responsive.
-	jQuery(document).ready(function(){
-		jQuery('.elementor-headline-dynamic-text').each(function(){
-			var text = jQuery(this).html();
-			text = text.replace(/ /g, ' ');
-			jQuery(this).html(text);
-		});
-	});</script>
 
 </body>
 </html>
